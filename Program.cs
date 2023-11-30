@@ -20,6 +20,7 @@ for(int i = 0; i < 2; i++)
     }
     foreach(Character klass in Objects)
     {
+        Console.WriteLine(klass.Name + " blev skadad!");
         klass.Print();
     }
 }
